@@ -1,4 +1,4 @@
-monster = "usagi-nu"
+monster = "うさぎーぬ"
 select = ""
 
 while true
