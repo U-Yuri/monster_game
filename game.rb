@@ -24,6 +24,7 @@ while true
                 print "\e[32m"
                 puts "1: たたかう！"
                 puts "2: アイテムを使う"
+                puts "3: トップへ戻る"
                 print "\e[0m"
                 want_for_monster = gets
 
@@ -56,6 +57,10 @@ while true
                         puts "#{money}コイン手に入れた。あなたの持ち金は#{total_money}コインになった。"
                         break
                     end
+                when "2\n"
+                    puts "「アイテムを使う」は準備中だよ！　楽しみに待っててね！"
+                else "3\n"
+                    break
                 end
             end
         end
